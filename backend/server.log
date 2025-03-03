@@ -1,0 +1,623 @@
+2025-03-03 19:50:30,901 - INFO - Tesseract Path: tesseract
+2025-03-03 19:50:30,919 - WARNING -  * Debugger is active!
+2025-03-03 19:50:30,920 - INFO -  * Debugger PIN: 141-088-158
+2025-03-03 19:50:31,941 - INFO -  * Detected change in '/home/arryaanjain/Desktop/Everything/medicine-ai/backend/app.py', reloading
+2025-03-03 19:50:32,689 - INFO - Tesseract Path: tesseract
+2025-03-03 19:50:32,705 - WARNING -  * Debugger is active!
+2025-03-03 19:50:32,706 - INFO -  * Debugger PIN: 141-088-158
+2025-03-03 19:53:29,480 - INFO - 127.0.0.1 - - [03/Mar/2025 19:53:29] "[31m[1mGET /extract_text HTTP/1.1[0m" 405 -
+2025-03-03 20:16:05,271 - INFO - Received request to /extract_text
+2025-03-03 20:16:05,272 - WARNING - No image uploaded
+2025-03-03 20:16:05,272 - INFO - 127.0.0.1 - - [03/Mar/2025 20:16:05] "[31m[1mPOST /extract_text HTTP/1.1[0m" 400 -
+2025-03-03 20:17:03,379 - INFO - Received request to /extract_text
+2025-03-03 20:17:03,380 - WARNING - No image uploaded
+2025-03-03 20:17:03,381 - INFO - 127.0.0.1 - - [03/Mar/2025 20:17:03] "[31m[1mPOST /extract_text HTTP/1.1[0m" 400 -
+2025-03-03 20:18:56,308 - INFO - Received request to /extract_text
+2025-03-03 20:18:56,308 - WARNING - No image uploaded
+2025-03-03 20:18:56,309 - INFO - 127.0.0.1 - - [03/Mar/2025 20:18:56] "[31m[1mPOST /extract_text HTTP/1.1[0m" 400 -
+2025-03-03 20:19:00,810 - INFO - Received request to /extract_text
+2025-03-03 20:19:00,811 - WARNING - No image uploaded
+2025-03-03 20:19:00,812 - INFO - 127.0.0.1 - - [03/Mar/2025 20:19:00] "[31m[1mPOST /extract_text HTTP/1.1[0m" 400 -
+2025-03-03 20:19:36,772 - INFO - Received request to /extract_text
+2025-03-03 20:19:36,799 - INFO - Image received, shape: (1280, 720, 3)
+2025-03-03 20:19:37,019 - DEBUG - ['tesseract', '/tmp/tess_neo5ynpz_input.PNG', '/tmp/tess_neo5ynpz', 'txt']
+2025-03-03 20:19:37,254 - DEBUG - Extracted text: STUBBLE
+TRIMMER
+
+vitimeate styling &
+
+
+2025-03-03 20:19:37,254 - INFO - 127.0.0.1 - - [03/Mar/2025 20:19:37] "POST /extract_text HTTP/1.1" 200 -
+2025-03-03 20:19:50,794 - INFO - Received request to /extract_text
+2025-03-03 20:19:50,811 - INFO - Image received, shape: (1024, 1024, 3)
+2025-03-03 20:19:51,023 - DEBUG - ['tesseract', '/tmp/tess_da5frayj_input.PNG', '/tmp/tess_da5frayj', 'txt']
+2025-03-03 20:19:51,238 - DEBUG - Extracted text: 
+2025-03-03 20:19:51,238 - INFO - 127.0.0.1 - - [03/Mar/2025 20:19:51] "POST /extract_text HTTP/1.1" 200 -
+2025-03-03 20:20:41,573 - INFO - Received request to /extract_text
+2025-03-03 20:20:41,574 - INFO - Image received, shape: (167, 302, 3)
+2025-03-03 20:20:41,580 - DEBUG - ['tesseract', '/tmp/tess_gh18kjaj_input.PNG', '/tmp/tess_gh18kjaj', 'txt']
+2025-03-03 20:20:41,689 - DEBUG - Extracted text: ‘Apr Suj upp
+é 1-800-275-2273
+
+
+2025-03-03 20:20:41,690 - INFO - 127.0.0.1 - - [03/Mar/2025 20:20:41] "POST /extract_text HTTP/1.1" 200 -
+2025-03-03 20:21:28,635 - INFO - Received request to /extract_text
+2025-03-03 20:21:28,639 - INFO - Image received, shape: (266, 512, 3)
+2025-03-03 20:21:28,670 - DEBUG - ['tesseract', '/tmp/tess_vylpo8ec_input.PNG', '/tmp/tess_vylpo8ec', 'txt']
+2025-03-03 20:21:28,814 - DEBUG - Extracted text: TESSERACT OCR WITH 2
+JAVA WITH EXAMPLES
+
+tea] {js}
+ans JavaScript
+
+2025-03-03 20:21:28,818 - INFO - 127.0.0.1 - - [03/Mar/2025 20:21:28] "POST /extract_text HTTP/1.1" 200 -
+2025-03-03 20:22:13,479 - INFO - Received request to /extract_text
+2025-03-03 20:22:13,498 - INFO - Image received, shape: (1200, 1600, 3)
+2025-03-03 20:22:13,732 - DEBUG - ['tesseract', '/tmp/tess_mcyxrg9m_input.PNG', '/tmp/tess_mcyxrg9m', 'txt']
+2025-03-03 20:22:13,929 - DEBUG - Extracted text: 
+2025-03-03 20:22:13,929 - INFO - 127.0.0.1 - - [03/Mar/2025 20:22:13] "POST /extract_text HTTP/1.1" 200 -
+2025-03-03 20:22:35,073 - INFO - Received request to /extract_text
+2025-03-03 20:22:35,090 - INFO - Image received, shape: (1200, 1600, 3)
+2025-03-03 20:22:35,345 - DEBUG - ['tesseract', '/tmp/tess_gpgu8f_p_input.PNG', '/tmp/tess_gpgu8f_p', 'txt']
+2025-03-03 20:22:35,567 - DEBUG - Extracted text: 
+2025-03-03 20:22:35,568 - INFO - 127.0.0.1 - - [03/Mar/2025 20:22:35] "POST /extract_text HTTP/1.1" 200 -
+2025-03-03 20:27:30,339 - INFO -  * Detected change in '/home/arryaanjain/Desktop/Everything/medicine-ai/backend/app.py', reloading
+2025-03-03 20:29:04,475 - INFO - Tesseract Path: tesseract
+2025-03-03 20:29:04,493 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.114:5000
+2025-03-03 20:29:04,493 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 20:29:04,494 - INFO -  * Restarting with stat
+2025-03-03 20:29:04,743 - INFO - Tesseract Path: tesseract
+2025-03-03 20:29:04,751 - WARNING -  * Debugger is active!
+2025-03-03 20:29:04,752 - INFO -  * Debugger PIN: 141-088-158
+2025-03-03 20:29:49,298 - INFO - Received request to /extract_text
+2025-03-03 20:29:50,990 - INFO - Image received, shape: (2268, 4032, 3)
+2025-03-03 20:29:54,692 - DEBUG - ['tesseract', '/tmp/tess_jyp_puve_input.PNG', '/tmp/tess_jyp_puve', 'txt']
+2025-03-03 20:29:55,824 - DEBUG - Extracted text: UuocIs!ioeid
+9 BULYAIS a ewan
+
+UawWWwiaLl
+aaanLs
+
+
+2025-03-03 20:29:55,828 - INFO - 192.168.0.103 - - [03/Mar/2025 20:29:55] "POST /extract_text HTTP/1.1" 200 -
+2025-03-03 20:30:02,809 - INFO - Received request to /extract_text
+2025-03-03 20:30:03,851 - INFO - Image received, shape: (2268, 4032, 3)
+2025-03-03 20:30:07,486 - DEBUG - ['tesseract', '/tmp/tess_8lxsvkaj_input.PNG', '/tmp/tess_8lxsvkaj', 'txt']
+2025-03-03 20:30:08,503 - DEBUG - Extracted text: UuocIs!ioeid
+9 BULYAIS a ewan
+
+UawWWwiaLl
+aaanLs
+
+
+2025-03-03 20:30:08,503 - INFO - 192.168.0.103 - - [03/Mar/2025 20:30:08] "POST /extract_text HTTP/1.1" 200 -
+2025-03-03 20:30:31,240 - INFO - Received request to /extract_text
+2025-03-03 20:30:32,412 - INFO - Image received, shape: (4032, 2268, 3)
+2025-03-03 20:30:36,003 - DEBUG - ['tesseract', '/tmp/tess_2ngh_efq_input.PNG', '/tmp/tess_2ngh_efq', 'txt']
+2025-03-03 20:30:38,398 - DEBUG - Extracted text: DEI.
+
+q
+
+oa
+
+
+2025-03-03 20:30:38,399 - INFO - 192.168.0.103 - - [03/Mar/2025 20:30:38] "POST /extract_text HTTP/1.1" 200 -
+2025-03-03 20:31:36,150 - INFO - Received request to /extract_text
+2025-03-03 20:31:37,103 - INFO - Image received, shape: (4032, 2268, 3)
+2025-03-03 20:31:40,672 - DEBUG - ['tesseract', '/tmp/tess_lhlh088v_input.PNG', '/tmp/tess_lhlh088v', 'txt']
+2025-03-03 20:31:41,540 - DEBUG - Extracted text: 
+2025-03-03 20:31:41,541 - INFO - 192.168.0.103 - - [03/Mar/2025 20:31:41] "POST /extract_text HTTP/1.1" 200 -
+2025-03-03 20:32:15,769 - INFO - Received request to /extract_text
+2025-03-03 20:32:18,045 - INFO - Image received, shape: (4032, 2268, 3)
+2025-03-03 20:32:21,674 - DEBUG - ['tesseract', '/tmp/tess_46ucxtbd_input.PNG', '/tmp/tess_46ucxtbd', 'txt']
+2025-03-03 20:32:22,524 - DEBUG - Extracted text: om
+
+nh
+SO ee
+
+
+2025-03-03 20:32:22,525 - INFO - 192.168.0.103 - - [03/Mar/2025 20:32:22] "POST /extract_text HTTP/1.1" 200 -
+2025-03-03 20:34:17,458 - INFO -  * Detected change in '/home/arryaanjain/Desktop/Everything/medicine-ai/backend/app.py', reloading
+2025-03-03 20:34:17,514 - INFO -  * Restarting with stat
+2025-03-03 20:39:57,371 - INFO - Tesseract Path: tesseract
+2025-03-03 20:39:57,388 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.114:5000
+2025-03-03 20:39:57,388 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 20:39:57,389 - INFO -  * Restarting with stat
+2025-03-03 20:39:57,638 - INFO - Tesseract Path: tesseract
+2025-03-03 20:39:57,645 - WARNING -  * Debugger is active!
+2025-03-03 20:39:57,646 - INFO -  * Debugger PIN: 141-088-158
+2025-03-03 20:40:09,196 - INFO - Received request to /extract_text
+2025-03-03 20:40:10,974 - INFO - Image received, shape: (4032, 2268, 3)
+2025-03-03 20:40:17,935 - DEBUG - ['tesseract', '/tmp/tess_8_h9pdbz_input.PNG', '/tmp/tess_8_h9pdbz', '--oem', '3', '--psm', '6', 'txt']
+2025-03-03 20:41:19,914 - INFO - Received request to /extract_text
+2025-03-03 20:41:19,932 - INFO - Image received, shape: (1200, 1600, 3)
+2025-03-03 20:41:21,483 - DEBUG - ['tesseract', '/tmp/tess__i2h72cv_input.PNG', '/tmp/tess__i2h72cv', '--oem', '3', '--psm', '6', 'txt']
+2025-03-03 20:41:28,000 - DEBUG - Extracted text: ) rama atranan:
+re we tie Ni ek “Ay
+— Pigs wi 42 may 4 att
+Es = ens Lea Tr bl ts ,
+Sas = we a | . Ae o: :
+Bx aR PANS 30 x 15 Tablet ,
+ane Wis : . - =. a ree ness > 1a, av }
+a —— a aw ie ah, a athe ts SERN at, : U3 As ! po
+en a - ay oe eo, ee aT Rar RO cesertigtets iS ‘ ae 4 Tete Ta 4 Se eer er F
+eT So Pee SABI Ra Ce te: fy, riivacarsreets ae ‘is oS i ee
+= —_— Paes . - OG a teas A) ‘f aa F- Mey aS pis a ; me I
+nea | 7 2 Spe Die Rese ite AREER Re scets arbor or Wee cen FEN eet ioe
+ici wot 4 Tk 7 Sy be LPL eae Baki ey ~ Spore citys 49 Reiss resid a Paar eens ty
+To tee Pe ot na = » - = =. td aye SSS aaa ie comm a4 : ee ee ae g eae EE - a - : ae 7
+if = _, pie ee mA! wey i. = - ; . + Be Cae TS cite ma Sie) ; a : _ - |
+ey rr an rae To . ' oa) i - Ret 7, AF yen jie 4 t ay Rae ig = : | : AS 2 ee Be
+eT easy Wey oy ak Pm ry Mk we - 8 \ nat aR x pie NE JE = ZN = ae * 7
+ys *, sy 7 i . an bd Tab. a , < oe . bas ALS, ; Rt St aie GX ; i fs sis ae Sy = = -
+Bos CA es ie . 7 . - . i well Vp ty nee HES : = Soy Pee Sith SIS “ss < a, | a |
+are ae - —., - — +  |F Kor at fae tee fal raion: > pe “Ub. ae | .
+of eae vat woe -i4~ ~ . ar \ a 4 OnE a y ee “GS SSR fra Sa 7 a ;
+et Se Pre as fT “4 ' w “ - 3? aes 1 OS hae 1 ante Tetete a Y as Sen cw} tk (7. _ a : : ;
+ry i ‘x 1 ue or - _ ., ot eee ay - = — . | i ' ate ; | ies AA ee: Sate 21" y . ia rat iit . = | “ : ’ - .
+| eo > elms. a: = “ay 74 nae og f Q 'g.. - — 8 _ VOT L. ‘ . VS tice AR, es yh iis 7 |
+i Do V6 | - i. ‘ae “4 3 LS seg 4 e.K Ca on A oe <n ner eeat oe. aye a he rt
+5 ae «ae ay elem y y : I ' . re + FS “ga at eee ak ; vile A & ; | : |
+- ab a © Bal y a! an RS 1s ars ay Sat \; Sek ee CEN = rg a " i
+- 7" Ht ' 1 on Gs pee We wi SS - mt “7 Pee nd ig oe i. Sees . te “50h SNeN Ste oS i Se, oe
+| | 3 i } | Tt f er Le, . a So ye tees = SENS So s s —\ ~ 7 s . i |
+Beye | Ae | ™ - ef : ° ta | =! 7 a Oe es, wee Lie ANS eas ag wee i : . |
+pees | fe . ‘at ey af il | Bee mela UN Peat ct Se eee : ee, | ,
+‘ le iS \ 6) 7 I Ce ess nea 7 ab Asha (ce reset 4 ond 6e. ~ nts it “or tl
+a in: .. ' veg ; z= mS Lge ee OA Pan ea tg aces ESS 3 eae Rs
+' 7 - 7 aft | u ‘ Raed Took A oe “hoa ts ENS 4 “ep oe paw (| Lis, Pee = a isis AS | i. 7 ‘ ‘
+“ ~ Fi a : at _ = ay es “ = 4 . as 1g 1S = rpc Salty _ aati vars ; : et, 7
+i os if, a OW ' 4 y 7 a Lad ose - . AVALSA “cf UES, Rigid | Aare So ies 5 Se oo .
+aa F @ AC & ee o. BAX ~ IEPA Ra ENO ES SS ae eer |
+- BS ' Bw. : _— - > > as OES , art Bitseccss we oe IS : , | , |
+VIA — , 7 WY fp ‘oem SON a BS ata : Y
+' : , -- - FPS (mee td ras kaa Se fo SNS 4 ahs : x ne 7
+et 550 - 7 os ss Nae ewe pay, yo Pee aa a me i. ml
+’ mos - " ay wre oe we iar, ae wo otce RSS es ER = ' r
+a ~ | Ca -: 1 eae: ° Ps pial sg vi! ain; ~ a wth "2 c i. ney) . h |
+; — na a nog ee NG i as a pare 4 TAL iS eal Hey, aa va iN y) < tech ]
+-4 “ = _ : I an Ween A A & csegrenet ess, ate ee arises SEN { yrs :
+; SBD hd 0D Pen i i . yA <t. PN a AE So A RRENTAUT AR Vi/ e ¢
+eee ] — s je an . ‘ car SF Brite yt Le At} fia nie BN Se = \ J ) é un
+‘, Mas an nn _— : - : ar A By Ce a sa Sic aa Ss SEN Sioa <N ; - est |
+! ‘ : : | a , ep ‘ oe SAS ite Str Ps ul ‘hea _ $e
+ae 2 : | 3 ae a seats i ui way Aekaas ae) 6 .
+- . we ore FO a re - “ts o ‘o- ae ed REN) alee thaw 2° a eye a
+; SS 2 LO: a : fey an face PRT aed at Mae? ot ere sil est ge = Le ee
+- | = — es PEO wee “ayes Pen te RE ri, AAS BETES (ee
+———s ee OE ea - Ape ae So EET cn ae, ae Y SA were: See NaS EL
+| aan = = Ao ee a 7 eS Pes ne ATS ABS i eos Sed a yo Si a iS Ee ¥.
+_ = en ED sya Et aera nee PaAN wt = ; SRE tee $3 Soi SESS
+fg A le Bee Sei eee iim fl jor nates sicece SEVIS
+| | si NP gy bas ee are a See hee en Ci aa ' Ea aie
+| ie ae K cea i Zhe aot: 0 ff S ~- Tos nae 5 a Pes
+“1. “bp BS: Secapes , — ea a ES —s (PES wf
+; SS a ‘ zr! 4 Es l ian oe Fie a eee wean ‘eE— Lae Se
+Ze I ete a mace a tee ee v Nees
+SS ea Me See oS ah eee tore fl
+ees iS ae Sx Camilo it Liye os
+yall se oe, MO simone fin ¢ 7 ‘8 Seite ew
+tes eee Oia =2 tae tered a eee
+(snk eS Yee pe akin pers
+D its oe etl RE :
+~~ saa a
+
+2025-03-03 20:41:28,002 - INFO - 127.0.0.1 - - [03/Mar/2025 20:41:28] "POST /extract_text HTTP/1.1" 200 -
+2025-03-03 20:41:58,304 - INFO - Received request to /extract_text
+2025-03-03 20:42:28,182 - INFO - Image received, shape: (4032, 2268, 3)
+2025-03-03 20:42:40,926 - DEBUG - ['tesseract', '/tmp/tess_fl_6_8ng_input.PNG', '/tmp/tess_fl_6_8ng', '--oem', '3', '--psm', '6', 'txt']
+2025-03-03 20:43:01,007 - INFO - Received request to /extract_text
+2025-03-03 20:43:02,844 - INFO - Image received, shape: (4032, 2268, 3)
+2025-03-03 20:43:15,012 - DEBUG - ['tesseract', '/tmp/tess_778148f6_input.PNG', '/tmp/tess_778148f6', '--oem', '3', '--psm', '6', 'txt']
+2025-03-03 20:48:58,743 - DEBUG - Extracted text: See ain Rea a Tee SECT BN Se Bh Woe hneet ONE rete Ses
+Saas es :
+rere, ce
+ee =
+ee ae oer ee: ee 28:
+se yuocia oe
+SES ors eG : sees say tS
+oe = Se i oo
+ant EY ars z 7 AR i ene a et Kear 3 seas as
+a. 3 ems Bee uae : ee Saree ee is
+nie Pe Bean es fe igs Bist, eee
+Pe eo oe ee “eh Se gins ieee ae nee
+at peek ae oe fe fs Se ae at Nor bee
+ee : : : 5 LSe~ ors be es : otto ss oe * oi) ety fy me fice aise
+e seh “Sn es ee ; - oo oe
+¢ eee PPR Se5) Ay Tee ‘ aitiaet " ste S34 2S aR ae . 3 : . : : :
+“lS rin rs ae Wes Hee J BES es apis ae. ae i SS SST: ee
+: = S a esas oe Set Ra eG Sie e, eres ee oe
+ae Ae a PE serene Mid ees ee = : = : :
+Paes sy io ests ioe He mee roe, ee oe :
+aie fe ate eng oe sh Je: 5 Bee eos: Re BO Abs & 2 ay Sieh See ?
+a G = iiss Sams ENS Rah eee SS Ser NSS ae pars ae
+- ae cies Fi Beer; ; pete ere pyre CEE Sees dots SS GAee s eth ft
+et ind =. ee rere ene lee =F ees Ra : = - :
+Ae Si St TRONS ri TRESS Sas ies eee S oie athe oi regen Ss aie LEGER. et me SS ee ee
+STE Pees SoS t peti By Sy ates eS eas a; Le wid fa BSrins oe g one SS oO |
+Tee eee aa eee Tactit Parsee Blane at ae a EES oe
+reat, Tae aa Soe ot: " Met * Seis rm Beate cero ee ee Ree por ere See
+eae Rs CESS ines RS mat eee Re PEAS oe See - oS
+ae tees : ee ee te ee ee Mas ee ee caine
+sy Thea iy sai ae: IAS en ee aa Se ager ces aoe Aes cee es Se is
+teks pee aA eo rede es eee ess Seen a: a eat SPS) x ped: ere —
+ces ire ak wes : : : : : : e ee pads iS kt} iva Bee thee at ee PR ae ah oh penta at es :y Seog PENS ic34
+pa a ees 7 Paes Te erNG Cee ps eae ves iY ieee Lg TeAe as co a : -
+- - a a ee eae Ss Bee Yen Ae ue USE ee oe re Sere
+Ste wate ue = ‘Se: fr = * ae od wae ste x SEAS = See: peereare WE ge Cas aig 2 Bae FE EF Waray rahe a2 ¥ Ses Sosa ed Bothy een
+fee Se PES Na oe Bae Pe es Rete ee BSCE Ane RES Siaaee Set Hee al pane SS arxied se
+igh ay Bere fee Jose eS Sejp em rete ata ts ee oe att Evo roe Soe eae: rox x Ey Se Soe PLE eee ee RSE Ga Se
+— eee has aes crete Sot ee Reed Rei FF Bare ee eee 3 er eae te a : - - .
+oe : Soe Rsk aeaate Prince ah ee: an Beas ate 3 > See ab a fg ete ee SEE "4 kre eee Pep RES ce Sian Ce * oes SA eed
+> Aran s ae fF ae as ee eas es) Rear Se ety Res ae Sire ae ext ee Sees ayn Roatew iene sleet 2 pe
+Three na Rees Nati SEN retnis? masts Pea se Seee xe a oe pe ee: Seeeg See x Beier Cp aa
+EAI a ee Piven Nee Ee Bone Boonie MERE ys eee ates ee: ase Sees ee SNS, nee Sok oo. Bye Wer: eee :
+bao wa See: AY een . Sete LEASE z Reg cog make CS 5 oe Eb ries = enor oe: Lok ere oe |
+re betas §'3 Se ee ea Sei aiee: es te votes anes : oe “ Fete SEE . ay era Nae mie. euro Roz eae ahh es pie Sas aN ve oe es By aN oe S .
+Nise Les eet ie myers Bot on ae Sree Soe CCR Gas pipee ys eS pape eel eS use ine eee ae ae SAY Bavespe Pe Te : = : : : G -
+a ee ay SS ates See wot cae Aras Pitre 3} fo) > Sef ca Sree! fs om Fate faee PPR Baa. aS ate ee Pos 9 Rare eh vie’ ee ‘> eas Coe uo ise eee
+aN Hi Sonia 2s Nest . ciate s iF as “pera oe se Seah re ee. ae 5 a3 74. *. Ores ea Teele wat pass Ree CS eS, pe te « SAS eS 2 < Sa +}: w ra Ae A bh elk OSS s~ eA 2 yity, > Beer ~
+eS - : : : a8 ees oe u9 he es Bye teen Ss ri BOAT Laos Sh £5 Sie ". one ms EES Pape Shae Sot: hs cee y Fa ee tot Set 5 Eee: eos we git Are eA ASR GSS.
+Belay Fe See By oe Bye Pata ee 32 oes Pee Lf ot Ce ae Rosie eo es Pees Ps aah = a : a
+et a : a . oe Sree sae rere , Pony ais sie SAA RAS Races te eee eae ae rs La
+Mb trees Th PALS Lo Oe Tear pont Cad anes % eid Rtas aiaRee NER aes at wipe Sek : oe aos RE ree eee Sees aes eat icy me ee - 2
+ae 552 iss oe = AGERE : aos Yer ee Rota eee wae See Je, ee xe Ways . ee eee oe - ] :
+Serres = ee Soe Wine 53 Dees De EH ee eons Ee Se eee: Seas Ryser = Fe ex ty OSS oe ae ae oe :
+fee ch ny Sh}. ie se Be eB lem Ree Ress ete Peas aes a as Pulteney ty aa as ee 5 = : : 5 - / : a : : :
+a “71 FOS 6S es ge ye aks ees: oe Soe Boe Ci Soy. ean Rah 4 ae Bice er yea, ete aS ae one Wate caete Baye ie ot aaa << rigs ROE tes ere Sa &. >, we oe OT = Si : O a oe ,
+Sea ease ED ire a Ss Peickes Sie a ees ab Fy ies ¥ Ee oe Me oats ne pase es eevee ee eae Soa: Sa ae pela caer, -y St. elif are oe ee ape ya
+Dees iva Ss oe pees eens ee eS se eons ees of eee ike Dose “foe se Sei ce Les ree oes SRG es Sen ee
+ee cobiee ea ve petite RT Fs Lex Spey sat Nase ats Ne iS eae ee ec ent een ae suede. $ AS re Bere BiG Se Ce : : :
+: : ce : = ce Soe RCS 2 oo Cee Ha oe ees x5 Pe oe ee bent fee eres © Sig eae ee Mista Fe A eos SiAeey
+eee Pex ae: Ro Se Sa tee ea ee TES JES i Key Lear pra Int emene Eee) Sa ae eee “pias ‘: eles ae oo :
+ead eek ny Sr Ke Se Seat * ake $e, ¥ sists Ta eaves Avrt et Bt Coes Sahat easy oes Se on et se eo sh eee oo co Ce : : . : ,
+PRES act Has cs s a pee ers Sones zhase Stirs pees BE ee AES ee kes a a: Beta 3 es oe es Geks arate SOX ou ee ee esas a SANS echo Bes
+BAG rite ; eri 4 ULES ne ep cates Se ake Soh ¢: Se Se peens Ea; Meee spate oy, ie BS ren) ; Peasy Teele Bee rerio ORE ee gee = CH BSS pa tien yee aes ies
+Si ae FERS ak ee Sr Be ere SR axe SiN paweiges eee ee eae ee ; Bet ty ae . a 2 , . > oo
+rs ee Paes come z BRE PIA eee Se a FESS ate ge fare : ce fake ee oe Se - : :
+~ e- 4 oA add na ; 2 ake Sar sae Rees ha #) a iy a eos Pax aes 4 “Hise. eee te RNS soe sg ete Sg RAs TAA ead pie PEE 54 aS MY roe Be oe ? VES vag = s : : : :
+: : - - : ae : Seer cose) ema } Seas NES perc See Se Re 33 ues Rtg apsrase fa Fas Si Sn . pay s ES eae, EEE eet yt Pee aie SOT fete ti oT {n~ Bf Trane P eas
+& Sera eS x. Aga eeoks zt BRS * pee "3 aie Srce ZN Renee ons te tes Sets RAE PaCS - eeiddiy ties Sa ote Paty 3 eae net as h ee pees EET oe eis < eke Hae ee 2 eae oS, fer < 3
+uses ‘ae a SyRan Gee) Paes Ace pees x Re Peon thane pare aae S 3 PLES s Reine Be ae ayeeN aS ENS. pet ‘ge ae eae P ese es rears PEAS aaa tere ae. se Fee aes: et
+ek i ses eon: 8s Ses ae fest Ear) ests peste Gers sate ONS Eat Say ae Tee ens ae ee eats ; Pee ary RY BRE Sates Uae Saye Gonaiaiee oa ee Pres Soe ae
+ok NG ee: Sees oa; eee wigs adh See frermace ee Spee Ss es ae, ee oe Sie PRES eel 2 nd teats ee ee a S
+ee 4 sae , peas ex Noe Ran eps becca 4 Fest Soe a . ease ance ert, Se Ran ee a ee a ay? sptiag oN S ers Shck ea SS oe 2; eee See es 2 E
+: : | | So Ze oS : i ve “PAN Ae: os Wek saa nat pe ae aor RS aa eo Ae ees AE ries Sears Sere
+; ents pan vm apne on shit iS eee : ae af”: pees a ie ca) Te wee ee ee Lanyon srs Rote Hi ee Se ak wait Sa es By SHIN x. hue Ses eh laa, Sa ade.” <: Seca) See 54 oy RE a eee
+| a : i - : — ee lsn ee te bs be bese et St Big oe gems ry peer gees sae bes: a rade Ce oe Sis ele Piers? Levy Hesetd ets gee
+Soa, aces an ee. roe is “PES Siete PRPS: " reas ECE rf SS te Sater} cm te om 4 iste a Eos. 28. ca fee estas SY one: oes gE ells GCs sae ue ea See Ce
+we . ae BAe. kept nxn Shed as yeas £35 aio = hve. ~ : 3a Sit, ERS we ey eas See an 3 av eles we 5 cers os ay A Pay fs caer eae Sa ae Pee Sates Feces oo
+Barts ang ara) ERs oS ore Yt yew eee os Pee ee ga waa NS nt eee shee a ge Hove Ses Nie oe ie 2 a ae 2 G
+8 y Serre lee re as see oS ea: Cte is cars srete Ben eS A os aoe oo Bai. oe Ae pee zeae Ein oe
+: 5 aT tag fy . ft, > fxs Al fe Fae ims = , Jana af” “faa 2 hf Peis Sint % wAN Bry sys bie 1 2 carretg Stents - Se i erty, cg SOEs cm ay Oe TK RARE: Wag, Sabet? 2: Hoe BP y a fedirte ese , Brake frertea =
+Seaton ean Pept, he Fes rps geeks Sees 2a as BRS hee Ses af es GO (BRE oN ena Rae As Sea : aa fer fens Sars ee me ae o : -
+ae airy bStin 3 papi 4 Et Fg ate SPAN rd ae 55 Se eas ee 2s WF ny es tis eS ie re Vita is Peete ayn ag Metis at reir sae As 3 penis ck he iS EE er YS. RTE Sal ae OR a eee ree ; ae = ;
+se + Rabe Fas mans ytd Vrs, ; a3 2 he “G ee ee : PEAS See pe 2 igh Aa W'S aire ets Ta a, . Ne ay ea ‘ De Sie, fees £48 a penton oes, = : 2 : : : : | :
+ees ane ovey eek as nee ave os NS sees fet Pets eee ee spas even E> ee paat ren + 3 : ie SHAE. Bosh 73, oe dee or Zee Tees Os ENS sr ean, ak Se ay eee eet: earn ee o ee = :
+, a ; . | : : : : Z : . : e ) Bae Aes iat Pte aS Ss uae : eee ratte ere ee ker’ to ie oes Eu iae oT
+. aS < ee ee ree Eee he kote acaeerh: rere - ; fees eee, Hee es SGC = re ere Saie Lose ti, Satie coe ss! ae A fait, one. args tse SE ras Roe
+eae ee a HS = wa ort AE SS ioe pa oe aks Bag tae ares . ss af Agha aA Sets oes. Pies 5 owas oy S24 ee IDA FAN: Eth ye x3 v2 RPE ES Ges ey : i : : : : :
+Shs a aie Wares hare pats BAe SE ng ae = BRE. See eee Si; 4 Seer ZN ae ee att tees s Foye prs Lees PER % HEI Fate eit Sa te Zane ee OPS fey ioe
+: 2 - a =f ea EAE ASS ep sas ee ee RS Behe aie spa Siva! Ste tat Spires BTR eee Re oe fe eet adv
+: . oe Ex = 2 : eee ES paygae Lees aN aha Ar eis SEN 3 my AES SRE 2 te ose tees Sess & es HUIAE ¢ eo ae Sere eel athe Ry eoK eek sia gear a: NN
+8 Peery Sa pase fe Se re! ete ie th & poe svi Sea ee SINE Pia SRR ASh pail uente: Cees oo. ee7 AB a > : i a : : :
+- nes ae eat Rar ae. See 3 eee Seeteege ¥ tas ‘< = eee vi Sess st 3.. ios Pennie BONO o2 pies SEARS a nioee: oe gia aa es ee need ans Sees
+C4 meee Wets433 : apa. ay: re gk PS aan fe Bae Y Beane Deve ae eae gare C ERIS we oo eae ORE preg , wage SS 4 rare Seles tee oS 2 EON! & re. re eae LEay os ee fences apter st Se Sa ee : =
+Ce Ciara eas, Si Size: he ew Be are Rea : Seges eet, \ NEE Rtaereht ny ES: ae iS ae < Oat ous iF Jue} K ees 238 a plies x36 Ly see Ce ee :
+ste Vaart! +e ‘A sete pete te rele i te} Port. Crys Sesutste Mh net ode ee ean ae ES pee s ARS Ge 6 eee eae SSSARG Teng eus pee) acess a Gay: G Poet Pee ae. =
+Sey. EVANS fe ety Reejeenes ter roy ee vas he Shee ta, ae peti eee a Se so laa Has ah Wide ae et Seay tty, {32 Peeters Speed PERE Se ate :
+Ca Cae SEY a a oS EN bon HAE os spage ot Bd + aya ies eee ates Sv . oe eee a : :
+eras Hae: : eee fey Ue ne i ate. CAL ere pon ees Reo Re) CA ys Soe Sore ‘ pee shake ee sotR le ose S| eek. Pee! Seeaus oe a} s Sabeet Se ee
+3 : | 7 : | . ; - : ee i aa eae Soak eT. EL ES poe: POLE Res Fe a a, a or ai 4 rae tes RS a ieee Ear ne et ie nie ach sae sz
+— ee at ae Saeohe 4 Sieger y ye at “ape eed Mae ee ee en ee Hartel Peli aoe Bite eR eS te * Seek ers So Pr pees :
+See : Rois ee RS analy ye fa ey Brant PI pees ns ES eo sf {Nise ma BONE per, as Sadie oe : a . : : : : : — :
+e a : oe . - ee cea ace aay are es BEES 4 Re Lee a3 ere Ss ck pene Se eid
+: : : . : a oe es oe starts foe Perea iS = ee eR PEE Sr isee Shy st ey SU eae ER wate Be Eee dk aus
+ig wa paises ee aN SEY, : Sagan eee cya ax ie 85 2 ieee <P UE ae roa? Sober. Rey Siem es is ie = S : : - 2 : :
+See Seen sere eee See “3 Cc seas Pee ee: a aete aS eee Sats Sra jee Aor Rita fea R peers hae AIMS or Se See ce: Ran
+: - : “ ae oe Bary Megatictn ee 2 few Ga Be Peeoe SN hal Be Aas: ee Ue Saartsy Be fer Rye Saas? Rays o fas See eres. Sy oe eae as tain
+EEN es p Sere an! oe “as Seas eis SF: es r eee Ree ee ary UNIS aG AF ed = hes tee KS ates Reeth ay: fe ef ane Sees eae A! eee oo : : : a : |
+ES S Seo Rie, deo tthe sop fachd pees cera oe PUN) eS seg eps S Nae rece Rae eae Sowa a: ie ee eee Ae ae
+arty Gee ee poe Pee Dr. RRR er rie Set eee Boe Seah ae meat emer Exe Shee fhe Any i See oo St is ET? & S. x a : x
+~ 2 ponucrest ME ake Siete Sa pars IKE eer ee mes Jag Set gS atc cay ERE eae Nos eae! ere Se ee Wee Pot Ce Baiet as es 5 - : : : : : :
+Reon ee £5 Sere eae hee Seats SAS pees see NSN ts foto bere? rae her) ne eS ERK Ete Bae Se Res ES: : es ara ahs Sai ee ee a@ oe
+ae as eee ee Es oe ae oes kes oe 2 Nes Sree aS oe Ge oo oS
+iy sah aes beet Os eae Sirs s Cites ete care wae BAe: ya. os. en Raa aa eae see CaS arieae ss ae sont ek hie Peas pie ee CS y
+eee 3 ee CeCe pas es eye aNNAES eee eared s eae ay ey re Nis Oe So a Sig eae ae eR te Re EG e ( ee oe
+SAR xi oR Tees oe ae ae eee eat Shee oe Btted Soon: Bact Canes Coes ee es Oe ie a os : 2
+RETNA S See = : ante G Ss ee “uy “44 SeSuee Bea Pe eer tee Stl Ser Be ey oF ia E Sakae RAEESGT #2 Sires ae 3 ates é SES SE eees Ste GEN Ae Dogs wh eet o7 oes UDR ites eae ie el cia RES
+~ SRS * WSs Fi CEE ’ rot Sf fee NEAT A See 4 eke or Soe eRe se ds PPLE Sassy pox Be: A Age ee ees ea SROVe He oe ae Bees i preter > ee ee F nV S58
+: : 4 ; : : - ; - a ee Rea Boats Ree estes Bde pee So ae Pee es Peer eas arty pee ena cere 0
+Beg a thre ae Aare sere : 3 Lye te er's » Ce Pee Death Sage tes ee PETA sf Be SHS Sa oe Spe ary esp. ecg See Reet dees ya YoU ees ay Bee ; a. : ; 2 - S
+Teen eres ant hes See: eae eaten Cp PES Spat Roses Sens as reERS ix Ee Sees x ee Ai ae ; Eee ens as aS ares sth es, Genet Papers pe TRS
+Res MEtET ced ee RY AE? re ae oe Si ate oe Bae peers a Seay he ae ee anea ee a : . = o :
+Seer ~ pereiea Es Bette Ceres, ent east a Osa se esel Eee) esate soe iat 93 See eX St Se aie Peace Vier ve 230 Ske % Bee. ° ees Boe re oe 3 oe o : :
+SP} SAS et pA SAE ma Ark ous % ae eae ise ash sae NSSHRS es i aes ak GER S eee oe. okies Be - oo
+aie Nex = ieee shat oe tes Says ishapee He ao Sees Pine ee eh seg on ree eG oo if. fae es a
+Se = es ieee ees Been SEER oe eee eS aS! heii Se Be) a aE ee oe a 2. a
+Z i . c ie S iw aoe ee Le aay Sete. Res? aN ey eee yt at Kenan et Tosente ale. ee a giant be ects Sater
+: Seat te ie a wesedehe ey ese BRON ut, See ee pie Eines Rea iS ae ES Soe, ae Sse ; ae Ser: Seas vite Bee pene Be, ee Peres ehh, Sante +s gat Cee SE tga Sie eee Lg Se Boe oe
+ee SSC acs a en nares pas eae Seg: as Marne i eateeas - Le é Seprec tee “eo 28 ee recht 8 os eck ee Pays ee 2 es. oe pee S Le ee : : : : ,
+See ey et Se DEY Gere pie EAS oe merase 4 eRe 1 FS az Eos pea ee eee Be re OR \ESee Sty Rees Saas fan Cee ee oe ol :
+oe Rene: ess RAR Be gus ey Ee Dad a ies ay Me oe ee, ree ape eats ES See, Sart, Oe a as ee ~ sn SS Suet oe ee
+fe eae een meee. i seeps Ae aes Pee kegs = Bias Se a aoee aa Sash 5 ois . Lear g fag nett or Be See: ee Se aici as Bete ~ Rieter : Wate Ree my i oe ea faded si? oo : .
+ee oe ee at, eh od bya poms aE S iy ence aaots es emus an So cee Pie? Se as .
+See a. eee Se Ae es ee ae ean eS cea "GR one Se aie i es ee & Res oe : - : - :
+: 8 ‘ - : : . 7 : 2 Tees ’ Wee £2 Cait Wes tS eu Sis Ere = ne Pee ee 7 eae eee es ea,
+Oru i Seam et 2 Saas" AEN ne CIN 2 * sie Se pigeons hh ia - 4 nic! Ae Sak Retan FY Mores ay oe t$20 Get Paes ee Jey mene i Pirate ase 5 sat sk bios ay iy Shc Bae pect Pas rea aaa wes = S .
+Tt sty aS Ws Qe a: SO S ee ae bk ee Sas, ras: ae * eNe ¢ sf Gy f Te: q pate: Pat ps AAR a. ay Se ey oa? s ore A aes SO . AeA J ee as idea ey Nass Gre a y Dagens LS page
+: : : : . : : , : 2 Peo 4 eee Rael oe Bee pe ers ate. pea Besa? ep rs mga ones oe “2
+wa OES ABNER, ise Pee S: a ogo Sacer eg Beal ete wick Sib eS: nee oi4 mee: reeds i, rey ea CoM 3 oo REG es 2 a :
+Say eps NS re eee Sivia era ESAs args aoe Rage GN f Up es jean Ae Ritts Rove oe arate ase Ra ncae Zax jo Rose Se Seite Ase pean Sats Bs é ek Sone ee : = : 2
+es ices ees * PSS 4 cps er HAY SERGE bh Sis : oe Pees {yee “is ae oe 7 ‘ ¥ SY NESTE Rae te: oe eters See OSES faa ee my Be sa aes fae eee
+. : : : : : 2 ee one Baas x RAS aS eee SPEND ae: Bae BORN Sires ee ie a mond, Ree | Zon ue Race ees BS Fee CS SARK 5 a AR ee: oKrre? Beni sit peo Eactas Pee he) oe Oh at
+res Piece ee ae Fae. eHESIN ar Hei ones ae rcease oe FO ee ees RSs eas Kertee Sane, oh ha Se Re: Be Saat bic En es a pESTeo eis fee's eg Gate Se, pee - .
+eee ee Poe > RN: Pe tore G2 eee oe ene Paras oe . = 2
+SET Pees a pate ees SEIN ; ee % Stereeity ees Toei YF oe wat! 4% Cowes BE ae fe es 207 Se ee — 3 4 a : : :
+Seen aa, Trae Bees 4 eS ee Se Beker Sint Yann Peoria ee Was pee x <A Ses Se: Ie wags ya Nay ie a Yeueirs rk res fa) $e ee {5 Soeiaey ee : : : :
+- : : - : a oe a is a RY, ES Es pte See cos SSIS eee oe ae Soe Bee: eee, See eS een) PERE, eye : aay
+pasa epee te ee SS eas ie ees: Xe? Busnes 0¥) ee reas ye 3 it vy ey oF oN ¥qn c Ee Brad aes ie 5 poo a CAT = Sete Les oe ech ee HEN 4 < fhe : . | 2 : 2 :
+JSF Ps Sod Aaa #5 SIS ee B EAs Stas ¢ x24 sees 2 RN pa Lopate et Rees LB ew a ees are ry oss ar ot ante a fasic sera y Beas tied 4 Se oe a Es ae Rone ye shavs eves: Lae sore yok & ..
+* Sey reas 33 rage) ances: as Fee ae 2 one tee Te ne oo Sr ¢ ete BAN ae nr Rm a4, of? jek. e SAGE 4 xy SOn¢ ae. y f aes i AY Ext ie eee " ES pes + Fe segs b a5 Ae vA 1 2 iNet 3 Se rar EAS OCDE Bee es at = *
+Es SASS Rete saens * feat" vs Pas. Sana Reece ra ES pire: PE oe a Ure es oy sgn i ASR eee te SATE a aay sueea Se ay 2 Saas H Rohe se Soe igh ine apes SAF Base: : :
+me eee 2h. iy one "4 Se eat abe sce HSS pica es oe bec Hr a or: ea a ap SN Fae Ss 5 Pk, “ahs i Sr eet eS BRE Sire jee eas a ee SEAS ESS oe tate SEN Fy 25
+pee oe: ee ict Estas Balan 2 ett art pee es Fi xed m rae earn pee ect s aes ere) ey, 2% ae: sens Dibs ety SE EG ye ANTES Sees Ar BEES, 4 Sane tie 13S oe SS : = : | —
+Peng pie 33 Ars oe eS, cr ee. 2ee Cee pao Ss ae cee cae aa ee Bi ae sree ee ae Ropes. ee age dese 5 RGSS : ee : e . : : /
+ae Boe Sr fees ee Wet “The cats Se e, 78 See poe nee : ee Pag re Se Tet van S28 ae ee POSS Ee i os ite Se ~ ise ae lakes 4 Are “ SURE ee
+beat sre Cees RST Se Sk ne Sept eat say He Heeeteehe NY “oy Saher Aree Ae Cae eae nate ey ly ates Reece reo intra Faget Sas Son ; Beer oe Taheee: rte Binet CESS z 3s
+: S : 2 oS iS Seg ears +} set EA raat SES im SG FEAR | oe Po ‘ut us ee ae a Be ate te eae p< aise> lags gas REISS Aas Pop kre BS eke eis : nye foe Fat! prea af. Sy 3 Se: Sey ee bs cae : Gass Piao
+So oN a oF BEN Ta Bet ah et ce gore exe “3 she pecan oer Bae se fore Ce eae rst oA tie pee ne % is
+- 1 | : . : - , ] ees ae poate get Se eee Seas rate we Pues a ese Sa WSR ae Pes ce ees 30) SY
+. Soe eae ern; Hees eee ee sire aS fa 2 ae sy Se ee 5 EY) 5, ae aa ws nee Soe ea tees sire Mer Sree | Bae as ro edt Le Spree PS ve; tg ah
+oe ote sear re oe A ate EEN Pri sare oe an os eGR a eee ee Ae ) eee oo pas SRA
+a oe ’ Peay Ee So Rey aes: hea A ees ere Se Side ete Soe EGE if ES ae Ws pee Segoe SRERTE ESE aN
+a pine me Sais Bee! ~ Boe 3 ae ae ee os rege ay i Roes ES PA ee i ; - ae : : : :
+ee on : tee Fats pss t eats Ae ey Sa tee ou 1 Bad eC oe i EM Sy; eS kid : een nites Ee were ee Gana . - a : : , : ,
+as ey fei Soe ee (Pacis oer EES Te 8 aS os Seca 3 ay ath Ate ens Ge: & ot Rete GB. Soe) 5, See ete ee iS oe “ oe CES Re eos
+; : - | . - = : oe Ps EK bao os es tee ‘SEB. EE, YI cscs tire oe BP ae eee: ered RAI SMe rcsity veers atte aan oe
+ees Ree w See oe teas « oe ees Ne Bats Sure a Se Bose ot q or Sane BE at Be WN cage Pore | ike oe oe
+rates es re 5% GRE? RES Sees oe BER lee eed: Y oe Bie ey oo oe ee: SPE ate oe ages es Se ae
+Yea ae ese Pe te OP: igkek oe EN Saeed , at N KS eee 4, eae AZ reat <5 eae. oh KOM q ae Sf as SES: ess SAN DEE “wa ee - Bx Coe : - ee 7
+Calg WEA oars CASE RSP asec Bis” ae PS Pa. ES 5 Ses n eet WOE > Dix: FERS we) t. ee. Raps ea ntes ty eg angcers SI Yee eae Ace eee Ses Ie ae ees Pees nce ee a oo : . .
+ere wt Srats eannins L203 dey eats 874 fee Sos tke : peter at a Enka aw Ae € $24 Rs Se: A et vane Ret nore eS een i} WEES na bey Se ad Sem Re pale ee 5 Ss
+ee oe ee ewe ees SORTS inp. Las SEL, ESS eaatcds Ota ae jeies e oe ] - : - \ : : .
+Sus sera: ah esa AE, Peeea! Fe peo: mee oe Sart. Ege 5 BE ie Gey fey ce Lope i, oe Se pita oie ER BAe eS = a. - - :
+Ss aa es z? aes bak es. £3: ana. ye ESS ora SB ¥ ya. ae pes NE Gee, re Cae Fed ees pte rien: Fe: LEG re be es gee eae Bae ‘s ny Regs pang ye Ree R ot ee : . :
+ee oa : ee ae edn Pie's SS a Ppa carte ee aso Ke LOSE SG Gs ree ee ee t pas j Soe Petia aS on a: oe ee
+pe ee Sie artes pay ‘ PRE aA oe eer Se GaoRe Sars eee oh Ue et 3 ah iss ae: | ie oe : :
+: : oO : L : oN ie: oe Depes Sooo Se Eee pie Me Spe GN : oo OEE SV aha aes oe
+Sake paec re oe Beaks, Nene SA Lye} = ee sigan eee ai Ape S Uitte ‘3 Coe ae i ia ol ie er aoe eee : FoaoRE ps saree oe fae
+taker on *r, are eee Ka SS Es ay as es bet aN a eA yt? waste 3, ane oy Soha rata xe Ks ote ye rigs Wy ion iy. air fee ees ESS s stage rad ret Raed art Ee: oon SA ie SS a ee “oe SES
+Bent : Sates watt : See Bi o “2 eee cas ooes S oe Is, RET | Ne BAG LG 3 GY LEY esos e ox Bee ace eh AUS oe :
+ee ene oe vee ee etl ee tig eee dg e EE: oe a y a :
+as ee Ty ae eae Pea, Pat hous. RS eta % Se ore Sees 3 ees ae Eta ea hag ie y Bey, % ae LG aii x3 £arg ps it pp gee BGA FETE es 4 EG des PEEL Ed ee oe ie “Af Coy aes Ae
+aR St Rte se nine ts he wre Peas t Das “es sy, i pee 2, ere a me . Sree See met pou or Nie A ¥ Chee’ B EY iy aon Wipe IGLG, SE: ae ORIN PEGE Foe GEER Sr See ra ey : eae peeurec ra oe a : —
+oe , ROR GERY Se Re cee, 32 Se bs, at nares hath wears ee Peg yee AL ne aa Yesthe os eH, RS pas F Sixes Ges ETS eae eh PEE ei EEG a £ Res Sy: Ste fay ae iS es 4 : :
+BY ee : ee Sta us ro3 Aes eos 2 i A ae Tae BY, 1 2h hie taal tes deta ei oe eee ies ee a SAE ; oer Be. ae Bs : ae
+ee eres es eae 3 ire se anes aN i =< see oe BS OF nn: = mas wf Fest 3 tet OY ) Ks fe £26 ' eee a ai en age ae a Be Sai PAE ae, es a0) oo tabs F AR oe a ae) Bx Sate fe
+: sCaxs om i oe OO 7 sees pee aus ae ios 442 as ey3 ee tag meee ryan nS, eee 5 Me Re 1 2¢ OR ty EE yea, wy $2 oe ELE Sie ee SE ee Soe Erno <1 En, Sait he yet ah) ees EES 1: Be yigiee Exit? S
+ee “ibe Wey AIMS ee ey eh! he % oe =e Sa , (28 Rae 5 ie Bek aes Yili a Ve — . - ! / | : : : |
+¥ty > ni <5: ot Feed oN ace ® ¢ 5* bars Bo? wt! rh ty Ene) ea Serer’ sete fF i Hs 3: AB a aad Fi i Fes Ye al eae a Aa ¢ Gyr sear ae se se a Roig ae ers nr ifiee ee Te) BS Nfs. cs ts re Vv ee Paes
+ess eee ean Sree es ee RS ere ee t RIEL ee Bs bas pip =" SLE: See aed pe Ee LE eS . : : : 2 : :
+: a S oe es i) irre a cA og at Lh es ee are CS, EEG ; fi tee NY eens for, Wike fabs: ies =f Ee Stes ears Le ras amy Ear pies Ane ¢; r ‘a a ett Atte) RE te hea Em, ee EES are =
+TERESA Se ae estas ae Mise bet Pipette Gives Se = Meeks ith ; eS ® oh <i Be %. eee Wks & ass ee eee cee fore Sore ae oe AoaGee ee ide a seer saree ateang Rte ivan ¢ ange ie See aS
+a : eS a se ae ® Sate Dera ta erie Par ee s4 re E> aes mo tice Seas Ete Bae ie ee ee Seay EE ss SESS =z at Ee eee thane 4 See ie fas eG Sen ESS COP pet ore KISS
+yeas Gre ee ee fae. Sen Rees ry rene OSes i Sean hee Rs Pr: Eeeres = ee Sees rae ae Be eee:  .  Reretes hee oe Ay - .
+Ey Boo Agnes (9 RES Cee Oe SS eae SPL Ww Lye Cee Set Seet a - - 3 oF )
+— i . a : os PS Latch Ie EE @ Bs: ison Rare ere eK ee es a4 Seas Steelers SOE ak fi aes eee operant ae
+ee et) ne ee mae Sait Serie hes: Kaplan 5 250 oo Reus ee Pee ee = ase ECE ZENS: Joe ee eae :
+a ech bc es Sree ie Dag ee Sethe AOD as Pood 2B yee fe ere. ee Cees aa eee ware: eee ge ies ae REC ae ees EE: eS chia wa aree ae me : es —
+Pree! peas hed a iS gees MS ets G AL afPe re 3 See SPER eC ey ee estos s : - | / : : ; : : : |
+eee Hoye poate heer SN gare ORE eee ee fie Recsee 5 ie Ee foetoe z oo. : rea ee Ses ae Xe “nee
+s Ses pelea Ait Tar, bien Spee pices x3 a eaten oe ee eS Gees Lae LEE Sees eee See re BLASER ee ee fis! Ef.
+a Ce 2 Se Ee ee ioe ay oe ria ee eee 2 eS Ee ees Ey oe
+oo. Bye oD ioe ee . ie leap eee eS aes 2 we LE pits . Sees Re a oe
+A wee ete 3°, sey 2 eee B;- tah BY Renae pes oe 2 eunee Lins Sets SiG oe ian eee Le SA an pra ee ess EES eter ee aes rete %G < Fees Eats eee ee LA ay me ae
+: : : 4 ee D, 3 ae af ts Pea peepee oe ee rhs tr Es See Sie gree =e Be EB < EEE z tee ee Aes eee Ba See eye Speen yee Eee
+cca 2 ee : etre: ’ eee Se rae AST Teas *, ears ay Sener tes See wR; Pee #. gear ee es copies Bite os atmo ZEEE ae Zeki ees p Er Se ae 4 oe
+So ee oe oo ae - : | - : :
+Se ey Se. sores Se So EE Tes see ; Boies ose EE ; eee Se : pa Hee ES Peete :
+: | Q oe ee pave a oo ES ETS Reis — : ass e deittars pi z Baresee ai
+co Sewanee ee sas Bot atin ee Bao eee ee eae: Sey oaeee paneer A panes EEE: Ee eas ne bah LE Ea iol MEOMCS RPS AT Eee
+anaes Be nhs i aes ewan ee, 5 Steps RA SS Aa yee eee Mee ee 2 Sees Aas Tao ieereres Bees eee ae Boze : ant ees eS eee. % eager s is ae : :
+ae <A As ee SASS we tease oe uae east ee a Ane , ge See oe. ieee ass ch eee eee é Soe ; ee eee EES ES Feet a oe ee Be: 6 SINS : Bory a
+| : : ae ae Ae ERA PEROS: sagen Swaine: ® ae Fee EES: 5 3 ree eee Svs ZEEE $24 3 ES Sa: LES Bien 3 ee See oe EAA. ies ieee RAT
+ns ALIS fe 2458 ees Rees A i RRS eens: ore Sead “yen PORES eV os Ox s Reese ee PEE an Tes hi aie ae “ ois ne give Z pis wen eats eee rot ‘a coe te eae a ah SS Benn ef
+— ee ees So ees z oo So es eee EE oo LES ee SA ee LeeENS ane tert
+aes oe fe ee eaneus re fee Nae oo eae BEE eee SEE Lares Ee 5 ZENO: SEES: ae ey peo See
+: . ; : i. eee oo yiee -— seni Bea Ca es ee Yee? Seg es ees cee
+eee oo ee oo ee oo ee: ORs Pere Ses es Reet
+— : . LS oe eee 7 eases ee ee eee ee BN Be EES Cees S Eon Ree wae see wee
+oe oe a Sone Beers EUR aye Peers at Eee a ee aes ee Pence ER a Boog bees Ree She waa
+Pe ae as: ds Niecteke Seer iee the oe =. we eee nes ‘ Baas eee v1 OS oa aL ie ETS VN ore pore pLaENE ioe ee x ete = Ms wette Brees ee a OTE S reas Rae Foire ards ae ¥ Ra: URES Sq. Te ra faa eh am 2 2 a nes PN GN Sata
+ae Beets ag eee oe — ae a : o : , .
+S oo 7 . oe Ae ee oo ee oo. Ee BS. Ze Pees teed ee SOLES
+cee ee Sse eee easy PEAY ‘ is Teens RS. Frekter he So Pie See San oe Bape Se ee eres ay HESS eee ee che Oe ere es
+ee Score Cot itt od ROG-5) i oo. Rees . vane eS ELE ee eet ee ot. = Bae eo SAS po wes
+oe pe Eats eae md 43 aes sare So cS nik ee Rigesnetin As ee: eee ee SE pee oe ita Bis BRS Fee S yo shes
+ASS iG ae Bate wae seats ie eee, an UE pe SEARS ees eres Sige enh Race SENG ee ee eee Sore wee a : . : : ; : : ; , 5
+2 7 ae : oe aoe Seaeies Seton eye oe Se ¥e Sees waged Boe ie ate Beet eee ese: ees LASS ica rena ane a5 sear aa hee Diy eke Rue Et Suey are ees ern
+a a Rnegss eek cawens eS ereses ‘SeeaeS pees OE eee eS a ee cise Ee : oe s a
+: : : : Q , oo PHIEEE Se ee — aes PEAS Sees ae. oe = ees Be
+Stari ae 15 “an : ete oe ey Paying Sau Lg poe ret Wy , pee: SPs sees es Nae Bees Saco > cee SER en ries a ete Fay reas Si aS Sy’ ak * ¥ Age se - : ; .
+7. ses Veer é AE Ae Sep eit De ge tae ay ast SEES: Desire ee ets “3 tea Site SEE. Gr mn x be ES a se ieted re tetas eis yeh 2% ase Bae peste sf
+| : . , : : : a : ne es prea ee ges oO ees ee Se Ges ee arte - eS cect are sees
+Hee tae ee Bl) «Sey ee Seen Spas: peer es oe pee ee ae Se meee rhe eg eee TDK Cee f Zeer Urs wen tors > mass re eae y OE BRIER eS Beet Fea Pa’
+ee Soe Ser : Ere! oe se sees yt e a mre o 5 ae ee ee d ere a enti ot ee mS sets: Lees 30% Na, eae aites oe : :
+: : : : S : oe Bee ieee ed ys eet ee 35 ne ns fears Ae Bees ees ee eee ee! Sie PERS ReTaN SESS ‘ Bas ese
+: 2 Le sie i 4 Sayin’ eee Saye a neg Geis BOSE eee Sinticn eh Derr ias eae La Rope Foe ere MESS "2 ined eet erat Sete P7 ES Sane eae ium Sea? oe af ote lars aise a wee 22
+2 poe Beane Shot. Deans ieee nae ene tees ‘ CeeSe eres Roker CEass ot Sr ite? eye as TF ae a Bue biped ate ix Bat a a x3 SSeeee ra at nkogs Ropes Ae ae Byer ae ep
+: a S SS fe oes oe St iees SEER res oe ees (ae ee i ae ies meee nas see RNEK Peres Paes ha! Pita
+: 2 - oo ee oe Seder pe Ss BE Do Eires SSR Se ee gS oo Bias
+a oe a 7 et eS OES pe eee Se ee i ages EES Fos. eee eth. eae ce. eens
+: - i Gis es anor ieee - ae Bere € Lee RY uni b Si he Sa fetes 4 aoe eS Mees ee
+: ‘epee “ sie 38 ans as es RESTS tet ae evry Shh Le ne Retake ey fs oe sit ROHS fans é Siok Be Bea hG oe As a ve 4, eat at ons ns eee eee ee pei Sens ES eek 7 st mag te Boi f SS ve : . :
+oe a oe vat oo. s eon tea wre Se caye Z Be site Ss ee. See. oS Rca. merce ee: Pe Ss ou AS A ES Oa ser Ree. os Ca
+Lea Peeper Pees eee eee gee Bsa Eke ee. oo Fe FRE es ane os ; 2 : L : : : : :
+ae Sebo Soren ee Loe cee Sete Roa ese: iA eras Score 83 rege yee ie ess ey te - i y | | 2 :
+eee Poe a on cee Beeps ciate Me vg. Sek Bese arn Ae. Aves ews ee fe eS CRA os sous : ee eee E Sree reas ee kM Dine ps 1. arte Saatat Pe Bae Ss Se Y a : ae : -
+: : = oe : oe : a Sate 2 eS Se et i eeity mn! Red a Sipe aoe Sees * 2353 Pao: mere: xt oor7 coos Rees ant) ag obcrr Bey +f ATs ing eee ra) sty 28 Sees :
+oo Bigs: ES SE Aycan ‘Saabs oe oe Pipe iu. HENS ety boas ¥. eee oe Ere : eat ES kas 8A sn ai Wes 2 Se eas ee = is
+oe See ee aes eg a Com Re eee capers seen AGEN rs Skene be at Se - = : a o o : :
+nae Peay Dist Cie eeR Ree Sad Pie ee | a ae, Sas PES 2 es apeeas tech ree PERCE aw as : eS : y y : : : ;
+es Tae iat See FoR” ar be weit me yey xe es Baorkie nvidia wants cae MOVERS ETA FERS vaE ere. Fontes BE care Ee areal ue eeu ones fata ee ides Prmara pees es
+Se og? foc ees Seabee rae (ar the ig aaa a Bese SSNS <a we os MY ania ee PR aAe ms eee nay ae ar bath v. SSt8 ess: eae Oe wee acest ee = 4 3 : . : : |
+Soe Reais ag kta rash Fete Paoee 2278 re ee 7 oui - ef reget Laas cen Se ~ vee Oe es sro, Rigey pe ae Bie Se Sages eet) BES sees : Eee esos BY ee yeh 4 eS Fea eat Re Ca aa ned) ns
+oe xis Poe Seas ASS S ea ESTE vee oe ay aes iS SES we Lead me PANE A ee ens ; eect et ce one see eX Cee presen! ean, Lk aera te ee a -
+3 a 3 tes eas Rs eee, = ahead ersecr pes bee Saar SOLS 5 hee eS nee pur Se de cS ee ch he ape ees ‘28 eee Bestey Le SZ pace
+‘ a oe ert eae rigs Be aay eM pines aad es a eee pres os ees nae ress ee Sete ee aoe ete eacere sees S SESE i oes aes ae teicee Pa sae
+, : : : Q : : c wee = % setae peo Yestas Birr eee ee Soiree pees wigs a Sao <a pais a et Li se re weet) Sle f sca rae So AA. Gere ae “2 " <4 EONS nora DALAe ek Pear a: oy oe
+¥, ees sped oe ds Woe eS ffdae oo) apts BS Sat eek EEN me Srsscs Ree Ces on aes Bae ene Be uae At aates NES sea ers Ss EULA ; oe ae. :
+o ae ee od mee eae “a "RoR nd wee Sod Pets oS — pagesst ~~ See Mas ze BRT gees beac Sa am é ee $ Eee antag feces 4 rae Pert i Zea
+By eee Aes at 7505 ABE x ee ie Pe eS a8 wae Bese ¥ Sayre vee Fee SES rine RITA e BOSS 3s my. S45 ee. ie Zoos ; pela g ov, A epee 4 Git fy eee a et pay; piles, / eS a ; 3 : : 2 a
+2 : Q ’ ) : : - a io. SpA eae Fe sss PEE A ~ serttire Saree eae A AONE * Sasa aAu! “a Sere apt Sree 65623 eee 7 NS s3
+PIAS ES oy Sse seed Sree oe Oe Pence Satets ae BERG AXee xs rays ages Las igre ee Me et G eee m3 wie Bo at eas aR Taree este Boom ys Bee a8 oC
+8 oe sites epee eae ase: es os rye nie eshats ie adts ene pene seater Spee eee ES Re Aer ee Soe eee Vata a hn ApS eg eve
+Axe oe. A ‘Fy ere ase Yee ry ee wa, 53 oie ones aes cers rm SoS ein es ee WS Seceed a reir ee Ore: ES RATS Ny ys a ote ws. Ries
+J ar Baek ee ve SORE a ox oles ote Sese he atte Seas ers asx eee ares Soe eee Sees, eo Kebece ea Hpae Gene Cop a) eave CAS: Ee cpibrs pe
+a Se oe fees. : sake ie ff ee ie : oS PARTS uti on ee fete) eG ae Rone ESSER Seon cuaIee Eee 5 ey ess oN we Ate ona een ‘3 eT ees
+ee Tekan ee Sts cae pare oo ee es ye aes Rees eee ee RR ee ceet Bese eee! poate ea ue: nee AAG tke antes es ne ee
+a Se SERGE Oe: th here aie rad Ay ee BENT Seeey ets pre SN eRe A Sees ae vs taal rhe he 5 RSS atte Bios es Sire FEE ne ey RS oe OEE ee
+5 eae, ¢ Boewd Pepe hors #95" has a7 seman pee te hp Leis Pave Y ee BLAt ee Lh fa ey phe res Ps £%. eee oF ro uty 5 teal aes Ae ae Aha ae seo hes SHAE ete & : . | : : :
+PENS eee es er ttre Shien US, oie “, Pe aean 4 oes S ire we. WSS oa wt oe PRES ere Fe, for Sac nd ax aL 53 i LI oes ce a eae as aus ad ‘y Seay aes aa ros fa x wf creat Seyret: yee Bs
+: - ae - eee 8 Se ma oe ni gets ease ee eS a eee a Se Rpt Fe Pisa Ngee J ee Ses eee
+Tes a ree ze SETS ES B 2 EES Se SR + Een Cie pene Say oa: Sak ie peat ree cesses chke Boy ar iat ots af wt eS ic. A es rasa ee paeante Bn s} 2% ee ‘ Arias? 2 ao : S S : :
+Ce e Baty ain, aps Pato. oA My aK pee FAN Raid ees ee areas Gi ASM Bae nen oy : Pea B Seite ra PA] ies Seats a ISS iar Spon feraie Nate i Ke
+: es x tees ee ves eRe boo ESS ee aan eee eckentd ae ase oe J Picea tes caw ane aay CAA Cees “pee ete 5 wo SR se ae Beate’ poise GIL ac see ian
+Re Tay Se ox ae er ee =: ape ioe bi eee xs ‘4 bates Sot Nee fF Bey Span — ad ea Eis ws Se emae rae sade es, eto +S Fara Boos eres ae See ut wR 23 ) eee Renee Ma ay reat ees 3
+. oS See oe ea Ries ee Bare po ees ard tue Conyers ees phe a 3 eS Ss Fe sae 4 Rte aed: x: ise Rio es eee piace
+a = ae nea Se pesky S84 Sie eer wets as eae f ay ee a ae tae ORL STere om Eo orn: ech us ates Bak F Riese! Were Lee a eS, ae iy Sof So, oa RS ans eth Rae} Sh ees rar + 8 RES titans es
+SoA ern PERE perio foe See ‘és Rye Se Toke Vek bee ee Pat at EO cary eb tire ear PS ey Rae Tat Suge! reed v ees SAS es ear ee Soe Pee S Gat : ers ay _ wa, Sieg chs $257 5°
+. : = = os ee oe rae, ee sere pee mies see KH Legian a hie fee Beir Ge GE Enea ee on Ses sae ee, ee Tec Sat ae Ae Shee oat san eyetet Neeser S aan as AS Zs Dieta aoe eee ea
+| : a : : | : : : 2 = ee eyes IS tg Ver aan Ia Fees so etewad cl Sas SEGRE Se Sat ess oa Porc rae eS OPEse: poe EAS, ei See on
+: : ; oe ae Poe: ne eS iat or 4 | Hse ion Sueeee Fas ey cag oF ats Bs A, SE ae rare PISS Sey t EECA Siva ; eS aS BOSE tases lacie Sax tee PF ™ Se Rere ‘ ey Seyie fa ee ra ae
+2 : ee ts URIERS RS LEG SD xt £3 +e Pa Bee Ne Su ee DARE Eo Ppa Rios GES = a v4 ao AS. a Pen eee Gy Se SESE ees exci pS “32, Rnd Seas Ag a (ra iat
+. : a o : , - 8 eee ees i. ee a Date cou ya Tes mol Sat Ape erates Bee Saas Sey ee PAS Ms 9 cre - aS Sse Rat ee So 2
+See Rete = Resoes Ee “2, cw Gan TH lat ewes Baty pee yaek is ee rife . eae SESS ek gee e g Z : : 2 : ? | : : | :
+hae a Teen n STAR SS x veers a> 2 eines ye eu ie Sages 5 x ¢ eee J 4 SANS : BSE nae aaa “et = mt “t Soe VANS eae ears Site simak Rea pe ihe ne . e : - : : |
+Ses ae Fe ot eae ee ry EP ie ha xX a Hea POE ant was Ae Set ne eee BSE . tte Sco st se o Z : : : y : : : | - | . : :
+: : : S 2 ae b oe ESE 205 Be ee Wasa aa fertiec et ses Rah a wet a Ty eee yt pe: Arran ee mt: aa eee ee kere : eae Fats, ean, La Fier! Cokes tr PAG:
+ . SRS ae as ee Bacon es ent es Gane reek pu SEE BBLS bes. one Pans es Sha ne ge Rak ad BR ate Beaey Aes ae } ie
+eee Sts gerd ak a poss Foe rs = dias : ee, co eekt ar hss Se Soe aes Pree cone tne, Cred eats! ee eu z a . . : ; , : : |
+: . , : ; - ao Be ee Sete ee tae ALE: Shr ES atte econ SAS one at pate Sao oS eS are weve atten Soe eee *
+oo 3 ee oes SE, Sieg eas Soe ee Boas Sea E Aor Hees 5 oe ae pirat ier ek eS are go oe Selene Sees.
+: : - - : c _ = caren Sees Bae saa oe oe a Te
+: 2 a oe wae a eee cs gee Bees es ee ee PITS ee pee ee ee Sisk ees : Re eee 3 oe gets £ eae re Sr
+Sees Tne eats are teay oa £: ates NOT ee ef SE : ete ate eye Serena Ne os eae Miles oe rigs Re OL aes ee Voncorn 5 aay eS pen ha aa = : 2 :
+Beaton : apes ae wateae le xeon. fe aye bs are “a Hie Mpa eee rears a suet dS Suit GREE Sates fe pa ere Serene rs ge Bee ee GN a9 aero: Boot YEAS Mote in a peers nyEs te tes Se
+ee ec pat es Mai cae ent: at ee SSA Sr aS Soe By Eee CASTS ia SS sto Bo ROLE eS, EN e he oe Zo ; . : : : : /
+, | - : : cS oe ESOT oe er ae eee ge as Sees be vee meee Garcia <5 Rt pars sh ger SES}
+Ae oF Bine ee 4; Sores ee oe oo eas aa ES ee Za : SS . - : / : : )
+Se ess AES cay an Be soe ek oe RAE eae Reece seg ee os eats 3 pata Sate Seo sant Ee en See oe Be aera 2 es ae : ;
+Re Reese oes Brees See oe Bi Rae ee She AGES ee aS Berets Boe Fee ae - . ‘ : : - S
+oo , | - - oe SP So aoe as xe pewed 2s Poe: ee ee eS Soe
+eee oe ee rs esas a ors ee ce le Ns age EOE eo Ce nes piece oe 2 . - : .
+- : : o 4 — aes pees poi NG =~ Se SS Cae We tes ee ess ¥
+esas ee ae ee 2 oe ee ae a a cee Cee See 3 De : : S . \ : :
+oe Seas oo ee BS Se ae oe ae ak eye ee Boe ase Pees Bras Lech ae repnee NEE wee ee ae
+7 - . : seers oo eee fay See Rates ea oe ores cas Ses ee es oe
+Ses ea ne es Keyes Sets ESE eau oe ee Ue ise as es eee Se i: oe - - | c ; 2
+Po ea Seis PAS L 1g ee Pee ee oe AY ae at eae xs eee ee Scat ak een SiS eae ee afeett Scheeyy aoe £53 Bee e a 2 | :
+oe ore: ORES es ene, & Pete ‘4 eee Hees Rena os Pacers as seats eer Perea ey eee. ee Sonex ess aegie ow¥ es moe Pe ; sa! ah eae ae Ss eS Lees Sqn ee ve
+: x ae SATO es ‘ eee 3 PELE: ee Ante ae Ke Fetes es ese Seed ays eae Ses sri PE oe fe ae res coer SG enya APES Pees Soe
+& ate oe Accor ¢ ee TERRES ay . eae aN ey Suey Seay Be oe picts : re eR Bret fe te ays yee Papen Lary Sate aes se}: oe S :
+EERE a ile ee Speer eae ED Soseraues 5 eee ESN ERS Rhee e2 Selo Ag pees Si Ree Gray z = ] : - : : ; . : : : :
+Feet Sea: a Sait Tek eae Sea eae. a eae i Gi ers ee Rar Bie : eee aes porns eae PAs Sian eae ee x DEES at ok “nS Were ee ae ie este OLS: ete
+LOS RS RA Ties aeKe Sys oe Sah Beas ae Saree ae ea Ee ee Aes me Re | sig poee ee Bes
+Sue Rit Mes ad, wee Pees Le ee eee ee aes on eh ee me — Se oe 3 EFS ee EG ‘ ee
+wT 5 ma AC ye pea ene MA Rens, re Ser S39 nae poe TAS Sete v 52 it eat Bar eet Poe: %s Pe iat , ae peat Vaid Saye bs ae Ary ot a ~ watt wet yea! asa +P, 2 aS ra ON Pasex Ts Koh =: oo "4s epi Me Le ro SF
+ryt ; toa) xis aT ee ears IS: oe SAE eos Roe Bes Ce 5 Se. ERIS Bt oe a : - - ; :
+ta a TOT aloes ee eons i LES eae ies oo es Save — SaREe Ste cee sae es nee oe x :
+ES aS 2 | : x : | = Q Aa : : a Tee whe te Se? Are ha nd anaes xs “65. ste keg eee oe Re one . SHER Po Se, Reet Mae 2 Tike ae ar Se aye
+Bae 5 es ae Reese Res oe re tgs oo Rees aS ae ee oS a . a . ; \ : : :
+Bear aS Pies SE he es SAE, es gees ae Cares os. ae See oes neces ses ses Se 2 \ 2 :
+orn ays see FOR NGSX aCe peers : ries, te Ber oh 2G Ria eS Rae a pio Sane a Bee er SEN eee Fe aes BEG es aes oo DERE agg as eee eae Hine og Sates Rae [Ser ic raey & Ne ce :
+er TROT: StH ES ey Rael nee sigs Roan Speed ees Meshes teers A Meare ty ae Woke ec Seat aye eee : o - G - : : : :
+oe BY AAS ie ie aS ace Ses Pat etaaey eat Ree a ely oe Fa een es Sealiry aris Pts! Se a : : | : | : : : : :
+ras Se at x eis ip reas Reed ie, Ree CUR Be oe es ie ak ES BES Gee, Sere oem oe $a: 3 eee rie’ ee races > Je ty Sete AIS fy he raaaey: See eae ay Bee:
+eres Sin pen Aare: Cr: A eae BOIS OS isacey Rune TS Steer Seeds oe ee ieee. 3 Ben Heh: RR Eee ase ak oo
+rare a faite oe Seen ne ROS poe Be pa oe ee Oe Wes Ages SS oo : ye fees
+ee Satie BO a ences CEOS ae ay So ene shy aes eR Gets oe e coo | : : | :
+~ Rr EA raters Rs Lee tats Pee tine ie £5 ‘pr a8 ab PANG fe Stee oss at eee Beep LAG * Reet SES is A erase ; saptigss rs ee att ES a Asher er SEs Lee ac : 3 ie a
+: eS a Se eres eae: Cee mee CRE 3 Ee Hee aes > FO: 2 Be oo ay epee e eects See op ETRE! wee Seen ‘ Bee
+| - : : , : : : 2 Bes siete ae ee oe so Sa eS Ree eariete NON aah oie eee Meas
+: = ou. , ic La aes ts oa 5 ' Rate en Yoae EER ees Sia EE Se rate Sree Pea SEN os Pace ee an See eet ee son! 43 Rah ditt os 3 CET ‘aa Sige poe ae Se “f
+SPOS Y BES 2s 2 EE pe oa ete ES Sees, si ee es eee5 oe ; aks SBS Sac ba ees Re Fike RO Soniee reset Peete ee ee : - : - ‘ . : |
+: , : : : - e oe WIR Gat our ce i <7 ae ee Bacte aces d eee yas Cas ashe Sige mcs Sey os may dees ee Soe ee
+LEE Bee ees Seat A cnt PARC Rae ANUETE Gate eke AeS Aes So e — ae : 4 : ' : : :
+axe vie of Py Loe rea Fea aes spies Fes ey atecens Beary. Bure a att soe a3) ESSE See “a Ge Brakes Ae af . : : : : , , | : : )
+arts re es Ste : sss eae act ae pee ete Ce Ser. ee Bee gh eae vars Pad ease ee Bete ie NY ca aeeaes aae sobs 7 CRUSE PCOS pres SOE ars Boe Ba ae as 7 deat cee See cee a
+: . ) : : : : . E ae x ey ES yi og SE ree ey Arras te odds Shea Rane et Say ou iocor yd, cise Pots Ah OE nA ‘ pie “fe KAS ay oka re Lene 5, hy > BP ZF Se Bs Se x Sr say
+Bese fSne Yr eae ee ay, ae she ee Sey hae Woes Be Pao es ee ee Sa SSA LOSS eae { Sues ZS He ue Sains ihe ois “te Spee SOAS Ce Sees ab oo aS
+ey aes @ eae sraaent aoe ESE epee : Wah Say ye Barts ie vf aay Pee wee pike oe eons: See Snes, ent zs NS ease rey ose z os : S c : | 2 .
+rete rd, Rel pan fe) Rime fate, me & Deg Ree D yee! a aiate * Sees peta: Ro seg ee Se tit eee “at ene aN ie Loe . : : : : - : \ : ) : : |
+Bt ses ee: str: Li CL PRS. nad ‘ VEG ae ee aay Stages Baers eseres xt Pye ¥ ole: Se ois arate: setae eeceeree Gtabos: oN ae CEES a > Siete pe Petes S55
+: Ss see = : Te : : : ie os See oe oe sector re ie aes Boe a ee ee ; Bente: eevee See
+oe Wee eases ats eS Sea Ge “FEBS oe SRA Con BES Are eae Lea RAS See See oe ee abies cy ene SERRE SUS aes cee , oo :
+| : : a : : . = eee RS ese Leas ese ee fo: Bees Sass A Ge 13 eee es hg See Pan Pegi a eaes ; Seat ki
+peeene eA PES Pa SE aatp oe ate te 3 spa Satta + efoem NOR Sa AN AE Se 3 EAS re Pune Sh eS ae aoe AR aN: x Sitaoe Re : — - : : : : :
+: : 2 : : , : LC ae oo. ere Eee eg . PRtG Us eee ae Ane pete sae ee ee “aah fe,s a peat ee qa 3s seal
+a PD ve, . +S oe ake et ~~ Lene ye hn - a rey & fd Y es i ety rae: ks ER Ase b ay :% ges eee aR a. ae ane = Oyen shies nS - wet $ x a} a Ma ¥ ars b Re xrs4 ak 4¢, See ih Ae : VAS = LOS fv. S Ram “hte esata, earl PAS’
+eG We 2 =e Sens see te SF sass Bet ses fo gre s HF, Sas 882) $08 ASS Gin ee 3 is Oe Sheet, oak Rees re are Sy ea Se i = : o : : : a :
+; : : / : : a ee oe Faber 3 stess thet Pastas Fea Bere si REX ree ati "te oe a Sie OSes tga woes is WF ape
+Shan fee ERE eee ons omens Le aes pat i aie EA SUNY Sestak DOR Seee 2 aE PAYERS eae ere = a i : a : : 2 : ) : :
+ie ein aaa: ee Sere Fp eae BEEN, ir eee : ee Seat eure rea Se Pee) 32) Meee by, Cee pages ee ae fen pale itil athe Eee SE oe eae EPI MG ones
+ee aR EAN Sie ite 4s ery sate eee RSS ats a Sees seca ee 25, eee Sy. yoke ees Sean Ce : 2 : a - | ;
+oe Ge Sate ee Ser et oes # ox a: ts 6 ee oo ap hy cy ea ae oe oo BAN ets os ee i A ase Stage: mone * eee oS : : :
+eee re Bana aa eS ee SOT S $25 Se po SERRE (Sane gum oe oa ie a - / : : : : :
+; | : ; : : . - 5 ss ae Dee naan ee) mae eee ee Ae ag rues Soe LLC ENSS Sint < Ae: a aye SF eons PAN
+: : : - . : : a Hee ae Laas a oh oyes Bo Set ate Sete ay hace ; race Set Pear the ES sors eee pis on ae rege) ete are aaa
+) : : : ce eee MEE ee ane es eee oe ibe 29 xa Se at oe une. a ees, FRESE Rs =e ee, red = ea
+bd, 73 " xe Saat “ats Ss Mes : na Re ae AG Nees ek teca PRYSTG me pa a EES eee Fi Pea ey, qeeR ue ¢ Gs Yi Bis es : , . : :
+- : : eS oo TES BIST aus ee eee tt be oe ae es Woe ee Ree oe sae Cease! die eee a A
+Sey Ane Sy Se A say sf ges fares * Y. et x c “¢ = See fax oe poe eset jh oe : : : : - , 7 : : |
+5 aoe) Raeaa SPSSLOGE = PS oo one Seas es ess Ree $253 Lees sete oe Sey oe
+Sn ri RUS Pky A atic TESS ss ele Sse Perea aor seve ae yan aS oe s . SS : , > ,
+: : j : . SS saa ies REAR Stes = ra She tone mee Snes Cane Ne * eee ER eee eg Ay Sty Zehe TAS
+apaae f . 2 : a? r aad Sk are Fite Bo ees wee Bore : PAT it Bee LE Eos Boies mh ee snes A oaree eee Loic, oS Vy. es rey
+Ree Sen ; as oes as Ea: pee ee Bes vies eerie ny Sas Soe Bese Gascon aan aS Se See Se eee
+4 ht SEL ET 5 ts NG pi Sgr eo Cee pees 3: cy Seeiae ee Ee Saar Rae o ety KS whe REPS Roe Lee toy
+| | : : : . : : : : eer Aeeasease s eA aa oA ES mis Os Gee TAN oe oe OY ee" ae y Beats ese S33 as Syst
+SS Rae eH es aie Sica oe —
+: 2 : : : : : : : a aS. i MS BS a BRS aap s: Tees ee Rese mal ee: a"
+seats a 3 air ra ee bs Rage Pa sips Saige ea) et se PAL Sos wey ors ye eee berate? oA ¥, ss ane ¥ oe Bees 372 MGT
+STAGE ere DRE ES Sis Se seme Spier ies: arith Se ee ote Sates eo ee AS ates SS FS eth eS ee
+J Eu aay 9 oe 2" Eee ney ad as Ds ees S57; tay env anere = sy ide Syes Nn Se Ke bees: ee oe Pate ny Seat et aoe = as :
+iPS Zoe SACS Pieaecae: Naor ha Ress Re eer Dees ee ae 2 . o , : ; : /
+De PG ant meee ; since te ee ano ee A: ae rE cer Set see Wea SR Sees m.
+ere Ks snety ; eR ss ee we 3 aa ee “Paes pasts ee rae reer Be bees oe ees ERNE ee Se . a : :
+2 : : : : : ; a Ae star eS tra at rato RES “eeteseg ey eae ee ge Fae ia EG,
+oR eho Be re $3 : te. PSS MS See SAU Zeke » Ss z, roe 5 hae ee Rex Bee ee ; : :
+eee te 2 Ave ‘4 as ao U fie: BRASS et oe . Eee Seba eee G we > ire ee ae
+a ero: Sea es Bae sree TE SEet ON Toes re ene SAaes Be 8 eres
+: : : : : : : : : Be Bae Ds REA eS eG Lees REESE HAS
+’ Arey, mR ES SOS oS 7 wpe Ses ies Gove AROS gs 2h) es Sas es see 2 fo
+= eee ee, ma + we fe aere Ss jaa x Se nee ; aes ee . : - S :
+a3 ans a Reet Pet OAS RAe Re vx S meee eye. Ps press oe pirat ne
+ae : Sas are eee SAS Trace ee Stee om . ee ere at eed: eas poe
+eh eta seN ee ESC ASE ax GaAe ms ehh SHAR ra fi At eset ue A
+Bee CUES en artes oe = ee zs see ee ee oe ee
+3 3 : J 2 res its a = na x A o . = Sty % rR ag! ~) 57 Aas Se om a Lr ay i < ‘= g..4"
+iD : 2 RAS ¥2 ape 54 ES: Se ee oe +o ae ay 2 = ae es Siete eee
+et al 2 Ste ARS Sa ett TENS ~ Ee ee tos ee cen
+FURST x ha! ‘ “ERY “ sy fr, ey oy cobs 3 Brits oie <n Ws te mks aoe et % BEERS
+; : m Bee ef aie SEE oo a See: NSE ORG
+a : a 5 = a oS Sai A re: sera ENS
+a ae Ae 5 =e Beets. wae se :
+: eet nae ay Pee goes sites pies Sa Aen ae Parka) Ne
+. Rees See ee a3 is a
+7B x, cr {ons zs a
+oe BO mete ee tS)
+ee Raa rayas'
+a soit a
+
+2025-03-03 20:48:58,774 - INFO - 192.168.0.103 - - [03/Mar/2025 20:48:58] "POST /extract_text HTTP/1.1" 200 -
+2025-03-03 20:50:13,913 - INFO - Received request to /extract_text
+2025-03-03 20:50:14,576 - INFO - Image received, shape: (4032, 2268, 3)
+2025-03-03 20:50:24,956 - DEBUG - ['tesseract', '/tmp/tess_opx73bvx_input.PNG', '/tmp/tess_opx73bvx', '--oem', '3', '--psm', '6', 'txt']

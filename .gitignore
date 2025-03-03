@@ -35,4 +35,8 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
+# Ignore all Python virtual environments
+venv/
+*/venv/
+
 app-example
