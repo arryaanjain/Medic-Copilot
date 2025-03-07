@@ -5,6 +5,8 @@ const API_BASE_URL = Constants.expoConfig?.extra?.API_BASE_URL || 'http://192.16
 const LOGIN_URL = `${API_BASE_URL}/login`;
 const REGISTER_URL = `${API_BASE_URL}/register`;
 const MEDICINES_URL = `${API_BASE_URL}/medicines`;
+const TREATMENTS_URL = `${API_BASE_URL}/add_treatment`;
+
 
 export const loginUser = async (phone: string, password: string) => {
   try {
@@ -128,3 +130,41 @@ export const addMedicine = async (medicineData: {
     throw new Error(error.message || 'Failed to add medicine.');
   }
 };
+
+
+  interface MedicineInput {
+    medicine_name: string;
+    dosage: string;
+    frequency: string;
+  }
+  
+  interface TreatmentData {
+    user_id: string;
+    treatment_name: string;
+    medicines: MedicineInput[];
+    start_date?: string;
+    end_date?: string;
+    notes?: string;
+  }
+  
+  export const addTreatment = async (treatmentData: TreatmentData) => {
+    try {
+      const response = await fetch(TREATMENTS_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(treatmentData),
+      });
+  
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.error || "Failed to add treatment");
+      }
+  
+      return response.json();
+    } catch (error: any) {
+      console.error("Error adding treatment:", error);
+      throw error;
+    }
+  };

@@ -113,6 +113,7 @@ db = client["medi-copilot"]  # Ensure a database is selected
 users = db.users  # Select the `users` collection
 medicines = db.medicines  # Select the `medicines` collection
 medicines_history = db.medicines_history  # Select the `medicines_history` collection
+treatments = db.treatments  # Select the `treatments` collection
 
 # Configure logging
 logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s")
@@ -272,6 +273,25 @@ def add_medicine():
         logging.error(f"Error in /medicines: {str(e)}", exc_info=True)
         return jsonify({'error': 'Internal server error', 'details': str(e)}), 500
     
+@app.route('/medicines/active', methods=['GET'])
+def get_active_medicines():
+    try:
+        user_id = request.args.get('userId')
+        if not user_id:
+            return jsonify({'error': 'User ID is required'}), 400
+
+        medicines_list = list(medicines.find({'user_id': user_id, 'medicineActive': True}))
+
+        # Convert ObjectId to string for JSON serialization
+        for medicine in medicines_list:
+            medicine['_id'] = str(medicine['_id'])
+
+        return jsonify(medicines_list), 200
+
+    except Exception as e:
+        logging.error(f"Error in /medicines/active: {str(e)}", exc_info=True)
+        return jsonify({'error': 'Internal server error', 'details': str(e)}), 500
+    
 @app.route('/medicines/expire', methods=['PUT'])
 # @token_required
 def expire_medicine():
@@ -301,6 +321,50 @@ def expire_medicine():
     except Exception as e:
         logging.error(f"Error in /medicines/expire: {str(e)}", exc_info=True)
         return jsonify({'error': 'Internal server error', 'details': str(e)}), 500
+    
+@app.route('/add_treatment', methods=['POST'])
+def add_treatment():
+    try:
+        data = request.json
+        logging.debug(f"Received data: {data}")
+
+        # Check for required fields
+        required_fields = ('user_id', 'treatment_name', 'medicines')
+        if not all(k in data for k in required_fields):
+            logging.warning("Missing required fields")
+            return jsonify({'error': 'Missing required fields'}), 400
+
+        # Validate the medicines list
+        medicines_list = data.get('medicines', [])
+        if not medicines_list:
+            logging.warning("No medicines provided in the treatment")
+            return jsonify({'error': 'No medicines provided in the treatment'}), 400
+
+        # Create treatment document
+        treatment = {
+            'user_id': data['user_id'],
+            'treatment_name': data['treatment_name'],
+            'medicines': medicines_list,
+            'start_date': data.get('start_date', datetime.now()),
+            'end_date': data.get('end_date'),
+            'notes': data.get('notes', ''),
+            'added_on': datetime.now()
+        }
+        logging.debug(f"Treatment object to insert: {treatment}")
+
+        # Insert into MongoDB
+        inserted_id = treatments.insert_one(treatment).inserted_id
+        logging.info(f"Treatment added successfully with ID: {inserted_id}")
+
+        return jsonify({
+            'message': 'Treatment added successfully',
+            'treatment_id': str(inserted_id)
+        }), 201
+
+    except Exception as e:
+        logging.error(f"Error in /add_treatment: {str(e)}", exc_info=True)
+        return jsonify({'error': 'Internal server error', 'details': str(e)}), 500
+
 
 if __name__ == '__main__':
     logging.info(f"Tesseract Path: {pytesseract.pytesseract.tesseract_cmd}")

@@ -22,7 +22,14 @@ export default function HomeLayout() {
       <Tabs.Screen 
         name="create"
         options={{
-          title: "Create",
+          title: "Add Meds",
+          tabBarIcon: ({ color, size }) => <Ionicons name="add-circle" size={size} color={color} />,
+        }}
+      />
+      <Tabs.Screen 
+        name="create-treatment"
+        options={{
+          title: "Create Treatment",
           tabBarIcon: ({ color, size }) => <Ionicons name="add-circle" size={size} color={color} />,
         }}
       />
