@@ -1,11 +1,40 @@
 import Constants from 'expo-constants';
 import { saveUserId, getUserId } from '@/services/authService'; // Import new services
 
-const API_BASE_URL = Constants.expoConfig?.extra?.API_BASE_URL || 'http://192.168.0.114:5002';
+const API_BASE_URL = Constants.expoConfig?.extra?.API_BASE_URL || 'http://10.0.16.189:5002'; //10.0.16.189
 const LOGIN_URL = `${API_BASE_URL}/login`;
 const REGISTER_URL = `${API_BASE_URL}/register`;
 const MEDICINES_URL = `${API_BASE_URL}/medicines`;
 const TREATMENTS_URL = `${API_BASE_URL}/add_treatment`;
+const TREATMENTS_GET_URL = `${API_BASE_URL}/treatments`;
+
+interface Treatment {
+  _id: string;
+  treatment_name: string;
+  start_date: string;
+  end_date?: string;
+  notes: string;
+  medicines: {
+    medicine_name: string;
+    dosage: string;
+    frequency: string;
+  }[];
+}
+
+export const getTreatments = async (userId: string): Promise<Treatment[]> => {
+  try {
+    const response = await fetch(`${TREATMENTS_GET_URL}?user_id=${userId}`);
+    if (!response.ok) {
+      throw new Error("Failed to fetch treatments");
+    }
+    const data: Treatment[] = await response.json();
+    return data;
+  } catch (error) {
+    console.error("Error fetching treatments:", error);
+    throw error;
+  }
+};
+
 
 
 export const loginUser = async (phone: string, password: string) => {

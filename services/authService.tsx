@@ -3,6 +3,18 @@ import { jwtDecode } from "jwt-decode";
 
 const USER_ID_KEY = "mediCopilotUserId";
 
+const SESSION_KEY = "user_session";
+
+// Forcefully set a session ID (for testing purposes)
+export const setUserSession = async (userId: string) => {
+  try {
+    await AsyncStorage.setItem(USER_ID_KEY, userId);
+    console.log("User session set:", userId);
+  } catch (error) {
+    console.error("Error setting user session:", error);
+  }
+};
+
 export const saveUserId = async (userId: string) => {
   try {
     await AsyncStorage.setItem(USER_ID_KEY, userId);

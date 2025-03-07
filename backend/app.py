@@ -365,6 +365,34 @@ def add_treatment():
         logging.error(f"Error in /add_treatment: {str(e)}", exc_info=True)
         return jsonify({'error': 'Internal server error', 'details': str(e)}), 500
 
+@app.route('/treatments', methods=['GET'])
+def get_treatments():
+    try:
+        user_id = request.args.get('user_id')  # Get user_id from query parameters
+
+        if not user_id:
+            logging.warning("User ID is required")
+            return jsonify({'error': 'User ID is required'}), 400
+
+        # Fetch treatments from MongoDB based on user_id
+        user_treatments = list(treatments.find({'user_id': user_id}))
+
+        # Convert ObjectId and datetime objects to string for JSON serialization
+        for treatment in user_treatments:
+            treatment['_id'] = str(treatment['_id'])
+            if 'start_date' in treatment and isinstance(treatment['start_date'], datetime):
+                treatment['start_date'] = treatment['start_date'].isoformat()
+            if 'end_date' in treatment and isinstance(treatment['end_date'], datetime):
+                treatment['end_date'] = treatment['end_date'].isoformat()
+            if 'added_on' in treatment and isinstance(treatment['added_on'], datetime):
+                treatment['added_on'] = treatment['added_on'].isoformat()
+
+        return jsonify(user_treatments), 200
+
+    except Exception as e:
+        logging.error(f"Error in /treatments: {str(e)}", exc_info=True)
+        return jsonify({'error': 'Internal server error', 'details': str(e)}), 500
+
 
 if __name__ == '__main__':
     logging.info(f"Tesseract Path: {pytesseract.pytesseract.tesseract_cmd}")

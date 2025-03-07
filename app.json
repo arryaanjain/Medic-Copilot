@@ -4,7 +4,7 @@
     "slug": "medicine-ai",
     "version": "1.0.0",
     "extra": {
-      "API_BASE_URL": "http://192.168.0.114:5002"
+      "API_BASE_URL": "http://10.0.16.189:5002"
     },
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
