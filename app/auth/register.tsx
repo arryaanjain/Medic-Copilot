@@ -1,12 +1,12 @@
+// register.tsx
 import React, { useState } from "react";
-import { View, Text, TextInput, TouchableOpacity, Alert } from "react-native";
+import { View, Text, TextInput, TouchableOpacity, Alert, StyleSheet } from "react-native";
 import { useRouter } from "expo-router";
-
-const RESGISTER_URL = process.env.EXPO_PUBLIC_REGISTER_URL || "http://192.168.0.114:5000/register";
+import { registerUser } from "../../services/api";
 
 const RegisterScreen: React.FC = () => {
   const router = useRouter();
-  const [form, setForm] = useState<{ name: string; phone: string; password: string; confirmPassword: string }>({
+  const [form, setForm] = useState({
     name: "",
     phone: "",
     password: "",
@@ -39,77 +39,97 @@ const RegisterScreen: React.FC = () => {
     }
 
     try {
-      const response = await fetch(RESGISTER_URL, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          name: form.name.trim(),
-          phone: form.phone.trim(),
-          password: form.password.trim(),
-        }),
-      });
-
-      const data = await response.json();
-
-      if (response.ok) {
-        Alert.alert("Success", "Registration successful!", [
-          { text: "OK", onPress: () => router.replace("/auth/login") },
-        ]);
-      } else {
-        Alert.alert("Error", data.error || "Registration failed.");
-      }
-    } catch (error) {
+      await registerUser(form.name.trim(), form.phone.trim(), form.password.trim());
+      Alert.alert("Success", "Registration successful!", [
+        { text: "OK", onPress: () => router.replace("/auth/login") },
+      ]);
+    } catch (error: any) {
       console.error("Registration error:", error);
-      Alert.alert("Error", "Something went wrong. Please try again.");
+      Alert.alert("Error", error.message);
     }
   };
 
   return (
-    <View className="flex-1 justify-center items-center px-6 bg-white">
-      <Text className="text-2xl font-bold mb-6">Register</Text>
+    <View style={styles.container}>
+      <Text style={styles.title}>Register</Text>
 
       <TextInput
-        className="w-full p-3 border rounded-lg mb-4"
+        style={styles.input}
         placeholder="Name"
         value={form.name}
         onChangeText={(text) => handleChange("name", text)}
       />
       <TextInput
-        className="w-full p-3 border rounded-lg mb-4"
+        style={styles.input}
         placeholder="Phone"
         keyboardType="phone-pad"
         value={form.phone}
         onChangeText={(text) => handleChange("phone", text)}
       />
       <TextInput
-        className="w-full p-3 border rounded-lg mb-4"
+        style={styles.input}
         placeholder="Password"
         secureTextEntry
         value={form.password}
         onChangeText={(text) => handleChange("password", text)}
       />
       <TextInput
-        className="w-full p-3 border rounded-lg mb-4"
+        style={styles.input}
         placeholder="Confirm Password"
         secureTextEntry
         value={form.confirmPassword}
         onChangeText={(text) => handleChange("confirmPassword", text)}
       />
 
-      <TouchableOpacity
-        className="w-full bg-blue-500 p-3 rounded-lg"
-        onPress={handleRegister}
-      >
-        <Text className="text-white text-center font-semibold">Register</Text>
+      <TouchableOpacity style={styles.button} onPress={handleRegister}>
+        <Text style={styles.buttonText}>Register</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity onPress={() => router.push("/auth/login")}>
-        <Text className="text-blue-500 mt-4">Already have an account? Login</Text>
+      <TouchableOpacity onPress={() => router.push("/auth/login")} style={styles.loginLink}>
+        <Text style={styles.loginText}>Already have an account? Login</Text>
       </TouchableOpacity>
     </View>
   );
 };
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    padding: 24,
+    backgroundColor: "white",
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: "bold",
+    marginBottom: 24,
+  },
+  input: {
+    width: "100%",
+    padding: 12,
+    borderWidth: 1,
+    borderColor: "#ccc",
+    borderRadius: 8,
+    marginBottom: 16,
+  },
+  button: {
+    width: "100%",
+    backgroundColor: "#3b82f6",
+    padding: 12,
+    borderRadius: 8,
+    alignItems: "center",
+  },
+  buttonText: {
+    color: "white",
+    fontWeight: "bold",
+  },
+  loginLink: {
+    marginTop: 16,
+  },
+  loginText: {
+    color: "#3b82f6",
+  },
+});
 
 export default RegisterScreen;

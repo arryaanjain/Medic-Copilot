@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { View, Text } from "react-native";
 import { useRouter } from "expo-router";
-import { isAuthenticated } from "../../services/authService";
+import { isUserLoggedIn } from "../../services/authService"; // Import session-based service
 
 export default function HomeScreen() {
   const router = useRouter();
@@ -9,8 +9,8 @@ export default function HomeScreen() {
 
   useEffect(() => {
     const checkAuth = async () => {
-      const auth = await isAuthenticated();
-      if (!auth) {
+      const isLoggedIn = await isUserLoggedIn(); // Use session-based check
+      if (!isLoggedIn) {
         router.replace("../auth/login");
       } else {
         setAuthChecked(true);

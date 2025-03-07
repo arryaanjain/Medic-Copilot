@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useRouter } from "expo-router";
-import { getToken } from "@/services/authService";
+import { getUserId, isUserLoggedIn } from "@/services/authService"; // Import session-based services
 import { View, Text, ActivityIndicator, StyleSheet } from "react-native";
 
 export default function Index() {
@@ -8,8 +8,11 @@ export default function Index() {
 
   useEffect(() => {
     const checkAuth = async () => {
-      const token = await getToken();
-      router.replace(token ? "/home" : "/auth/login");
+      console.log("Checking authentication...");
+      const isLoggedIn = await isUserLoggedIn();
+      console.log("Is logged in:", isLoggedIn);
+      router.replace(isLoggedIn ? "/home" : "/auth/login");
+      console.log("Navigation complete.");
     };
     checkAuth();
   }, []);
